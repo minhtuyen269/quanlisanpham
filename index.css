@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Calibri;
+}
+
+div {
+
+}
+
+div.container_header {
+    background-color: cadetblue;
+    border-radius: 10px;
+    text-align: center;
+    width: 95%;
+    padding: 10px;
+    margin: 0 auto 30px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+div.container_footer {
+    background-color: cadetblue;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    width: 95%;
+    height: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+#drinkOrder {
+    flex-direction: column;
+    margin: 10px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    width: 40%;
+
+}
+
+#drinkMenu {
+    margin: 10px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    width: 60%;
+
+}
+
+table.drinkMenu {
+    width: 100%;
+}
+
+table.orderlist {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+div.sum {
+    padding-bottom: 0%;
+}
+
+#sum {
+
+}
+
+tr{
+
+}
+
