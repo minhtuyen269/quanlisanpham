@@ -2,16 +2,11 @@
     box-sizing: border-box;
 }
 
-html {
+body {
     font-family: Calibri;
 }
 
-div {
-
-}
-
 div.container_header {
-
     background-size: 100%;
     background-color: cadetblue;
     border-radius: 10px;
@@ -57,20 +52,19 @@ table.drinksOrder {
     width: 100%;
     padding: 20px;
     text-align: center;
+
 }
 
 table.drinkMenu {
     width: 100%;
     padding: 20px;
     text-align: center;
-}
 
-div.sum {
-    padding-bottom: 0%;
 }
 
 th {
     border-bottom: 2px solid #a8a8a8;
+
 }
 
 td {
