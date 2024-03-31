@@ -6,36 +6,36 @@
     <title>Tìm sản phẩm</title>
 </head>
 <body>
-<!--<h1>Tìm sản phẩm</h1>-->
+<h1>Tìm sản phẩm</h1>
 
-<!--<input type="text" id="searchInput" placeholder="Nhập tên sản phẩm">-->
+<input type="text" id="searchInput" placeholder="Nhập tên sản phẩm">
 
-<!--<ul id="productList">-->
-<!--    <li>Product 1</li>-->
-<!--    <li>Product 2</li>-->
-<!--    <li>Product 3</li>-->
-<!--    <li>Product 4</li>-->
-<!--    <li>Product 5</li>-->
-<!--</ul>-->
+<ul id="productList">
+    <li>Product 1</li>
+    <li>Product 2</li>
+    <li>Product 3</li>
+    <li>Product 4</li>
+    <li>Product 5</li>
+</ul>
 
-<!--<script>// Lấy danh sách sản phẩm và ô nhập từ DOM-->
-<!--let productList = document.getElementById("productList");-->
-<!--let searchInput = document.getElementById("searchInput");-->
+<script>// Lấy danh sách sản phẩm và ô nhập từ DOM
+let productList = document.getElementById("productList");
+let searchInput = document.getElementById("searchInput");
 
-<!--// Lắng nghe sự kiện khi người dùng nhập vào ô nhập-->
-<!--searchInput.addEventListener("keyup", function() {-->
-<!--    let searchTerm = searchInput.value.toLowerCase(); // Chuyển đổi từ chữ hoa sang chữ thường để tìm kiếm-->
+// Lắng nghe sự kiện khi người dùng nhập vào ô nhập
+searchInput.addEventListener("keyup", function () {
+    let searchTerm = searchInput.value.toLowerCase(); // Chuyển đổi từ chữ hoa sang chữ thường để tìm kiếm
 
-<!--    // Lặp qua danh sách sản phẩm và ẩn/hiện sản phẩm tương ứng dựa trên kết quả tìm kiếm-->
-<!--    Array.from(productList.getElementsByTagName("li")).forEach(function(product) {-->
-<!--        let productName = product.textContent.toLowerCase();-->
-<!--        if (productName.includes(searchTerm)) {-->
-<!--            product.style.display = "block"; // Hiện sản phẩm nếu tìm thấy kết quả tương ứng-->
-<!--        } else {-->
-<!--            product.style.display = "none"; // Ẩn sản phẩm nếu không tìm thấy kết quả tương ứng-->
-<!--        }-->
-<!--    });-->
-<!--});-->
+    // Lặp qua danh sách sản phẩm và ẩn/hiện sản phẩm tương ứng dựa trên kết quả tìm kiếm
+    Array.from(productList.getElementsByTagName("li")).forEach(function (product) {
+        let productName = product.textContent.toLowerCase();
+        if (productName.includes(searchTerm)) {
+            product.style.display = "block"; // Hiện sản phẩm nếu tìm thấy kết quả tương ứng
+        } else {
+            product.style.display = "none"; // Ẩn sản phẩm nếu không tìm thấy kết quả tương ứng
+        }
+    });
+});
 
 
 </script>
